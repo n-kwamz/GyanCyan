@@ -1,0 +1,31 @@
+body {
+    font-family:monospace;
+    margin:;
+    padding:0;
+    background-color: black;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    background: #000000;
+    color: cyan;
+    font-size: 48px;
+}
+
+main {
+    padding:60px;
+}
+
+.gallery {
+    display:grid
+}
+
+.gallery img{
+    width: 300px;
+    height: auto;
+    transition: transform 0.2s;
+}
+.gallery img:hover{
+    transform: scale(1.05);
+}
